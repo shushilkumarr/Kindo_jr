@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kindo_jr</string>
+    <string name="button_content">Start Game</string>
+    <string name="puzzle1_ques">When does munster sleep least?</string>
+    <string name="puzzle1_reason">He only get 28 nights in Feb, aww</string>
+    <string name="puzzle2_ques">How many eyes can munster see?</string>
+    <string name="puzzle2_reason">The 8 was an infinity!</string>
+    <string name="infinity">&#8734;</string>
+    <string name="puzzle3_ques">Mali is stuck, can you help her off?</string>
+    <string name="puzzle3_reason">Let\'s hope she stays down and safe!</string>
+    <string name="puzzle4_ques">Silly Mali is really cought up this time! Get her off the tree</string>
+    <string name="puzzle4_reason">Whoa, seemed like an earthquake in here!</string>
+    <string name="end_msg">You solved all the puzzles!</string>
+</resources>

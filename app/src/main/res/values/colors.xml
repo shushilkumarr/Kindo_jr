@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#050101</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#141F25</color>
+    <color name="question">#2E6260</color>
+    <color name="puzzle_option_color">#FFFFFF</color>
+    <color name="start_background">#58857e</color>
+</resources>

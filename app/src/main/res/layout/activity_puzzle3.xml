@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puzzle3"
+    android:background="@color/background">
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/puzzle3_ques"
+        android:textColor="@color/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/question_top_margin"
+        android:textSize="@dimen/question_text_size"/>
+    <ImageView
+        android:id="@+id/tree"
+        android:layout_width="@dimen/puzzle1_pic_width"
+        android:layout_height="@dimen/puzzle1_pic_height"
+        android:src="@drawable/tree"
+        android:elevation="@dimen/tree_elevation"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/chicken"
+        android:layout_width="@dimen/chicken_width"
+        android:layout_height="@dimen/chicken_height"
+        android:src="@drawable/chicken"
+        android:layout_alignRight="@id/tree"
+        android:layout_alignTop="@id/tree"
+        />
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/puzzle3_reason"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/puzzle_option_color"
+        android:layout_below="@id/tree"
+        android:layout_marginTop="@dimen/question_top_margin"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        />
+
+
+
+</RelativeLayout>
