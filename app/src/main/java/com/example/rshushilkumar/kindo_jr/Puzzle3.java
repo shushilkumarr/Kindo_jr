@@ -43,6 +43,7 @@ public class Puzzle3 extends AppCompatActivity {
 
     }
     public void onBackPressed() {
+        orientationListener.disable();
         SharedPreferences sharedpreferences = getSharedPreferences("prefFile", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor=sharedpreferences.edit();
         editor.putInt("level",3);
@@ -51,6 +52,7 @@ public class Puzzle3 extends AppCompatActivity {
         startActivity(i);
     }
     private void startAnim(){
+        orientationListener.disable();
         Toast.makeText(getApplicationContext(), "Solved!!", Toast.LENGTH_SHORT).show();
         ImageView chicken=findViewById(R.id.chicken);
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.chicken_amin);

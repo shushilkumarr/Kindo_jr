@@ -45,6 +45,7 @@ public class Puzzle4 extends AppCompatActivity{
         }
     };
     private void startAnim(){
+        mSensorManager.unregisterListener(mSensorListener);
         Toast.makeText(getApplicationContext(), "Solved!!", Toast.LENGTH_SHORT).show();
         ImageView chicken=findViewById(R.id.chicken);
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.chicken_amin);
