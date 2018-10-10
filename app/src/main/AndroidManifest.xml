@@ -25,8 +25,10 @@
             android:name=".Puzzle2"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".Puzzle3" />
-        <activity android:name=".Puzzle4" />
+        <activity android:name=".Puzzle3"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Puzzle4"
+            android:screenOrientation="portrait" />
         <activity android:name=".End"></activity>
     </application>
 
